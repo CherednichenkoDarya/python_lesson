@@ -1,0 +1,20 @@
+Index: Homework_10_08/task1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\n1. Создать список и заполнить его элементами различных типов данных. Реализовать скрипт проверки типа данных каждого\r\nэлемента. Использовать функцию type() для проверки типа. Элементы списка можно не запрашивать у пользователя, а указать\r\nявно, в программе.\r\n\"\"\"\r\nlist_one = [1, 'hi', 23.4, True, ['day']]\r\n\r\nfor i in list_one:\r\n    type_1 = type (i)\r\n    i =+ 1\r\n    print (type_1)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Homework_10_08/task1.py	(revision d77dcbf78634373de207d4af7f25dc91731c0b62)
++++ Homework_10_08/task1.py	(date 1597723741808)
+@@ -5,7 +5,8 @@
+ """
+ list_one = [1, 'hi', 23.4, True, ['day']]
+ 
++#цикл for
+ for i in list_one:
+     type_1 = type (i)
+     i =+ 1
+-    print (type_1)
++    print (type_1)
+\ No newline at end of file
